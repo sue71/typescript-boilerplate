@@ -1,0 +1,46 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:types": "tsc -p ./tests/types/tsconfig.json",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sue71/typescript-boilerplate.git"
+  },
+  "author": "sue71",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sue71/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sue71/typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.0",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "conditional-type-checks": "^1.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "keywords": [
+    "boilerplate",
+    "project",
+    "for",
+    "typescript"
+  ],
+  "description": ""
+}
